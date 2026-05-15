@@ -233,7 +233,7 @@ def build_html(items: list[dict]) -> str:
 
 <div class="container">
   <div class="day-banner">
-    <div class="day-title">Notizie AI — {TODAY_LONG}</div>
+    <div class="day-title">Ciao! Notizie AI — {TODAY_LONG}</div>
     <div class="day-subtitle">{len(items)} notizie raccolte · aggiornato alle {generated_at} · prossimo aggiornamento domani mattina</div>
   </div>
 
@@ -295,7 +295,7 @@ function openUrl(u) {{ if (u && u !== '#') window.open(u, '_blank'); }}
 
 
 def main():
-    print(f"\n🚀 AI Pulse — fetch notizie del {TODAY}")
+    print(f"\n👋 Ciao! AI Pulse — fetch notizie del {TODAY}")
     print("=" * 50)
 
     all_items = []
